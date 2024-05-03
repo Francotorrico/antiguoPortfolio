@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Iso&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    background-color: rgb(232, 199, 178);
+}
+.listaMenu{
+    padding-left: 10%; 
+    background-color: rgb(60, 59, 58);
+    float: right; 
+    margin-top:3%; 
+    width:50%; 
+    margin-right: 10%;
+    border-style: outset;
+    
+}
+.logoletra{
+    position: absolute;
+    left: 9.5%;
+    top: 3%;
+    width: 15%;
+    height: 10%;
+    font-family: 'Rubik Iso', cursive;
+}
+nav{
+    background-color: rgba(0, 0, 0, 0.703);
+}
+body{
+    background-image: url('../img/pizarron.jpg');
+}
+section{
+    padding-top: 1%;
+    background-color: rgba(245, 245, 220, 0.644);
+    width: 70%;
+    padding-left: 2%;
+    margin-left: 15%;
+    border-radius: 8%;
+    
+}
+p{
+    font-size: 150%;
+}
+.titulito{
+    float: left;
+    text-align: center;
+    padding-right: 10%;
+    padding-left: 2%;
+    color: black;
+
+}
+li{
+    font-size: 160%;
+    color: antiquewhite;
+}
+
+
+h1{
+    font-size: 220%;
+    text-align: center;
+    color: rgba(222, 225, 229, 0.807);
+}
+h2{
+    background-color: rgba(147, 126, 126, 0.493);
+    border-style:inset;
+    border-radius: 40%;
+    text-align: center;
+}
+div{
+    background-color: rgba(241, 188, 188, 0.23);
+}
+.cajaTitulo{
+    /*border-radius: 70%;*/
+    position: relative;
+    width: 40%;
+    left: 30%;
+    background-color: rgba(147, 126, 126, 0.493);
+}
+.foto{
+    
+    position: absolute;
+    background-color: antiquewhite;
+    height: 55%;
+    width: 40%;
+    left: 5%;
+    top: 34%;
+    border-radius: 40%;
+
+}
+.informacion{
+    position: relative;
+    width: 40%;
+    height: 60%;
+    top: 16%;
+    left: 53%;
+}
+
+footer{
+    background-color: rgba(141, 132, 132, 0.562);
+    padding-top: 5vh;
+}
+.enviarMail{
+    position: relative;
+    left: 47%;
+    font-size: 150%;
+    border: 4px solid rgba(227, 177, 112, 0.866);
+    background-color: black;
+}
+a:hover{
+        background:#f56f3a;
+        border-radius:50px;
+}
+a{
+    display:inline-block;
+	color:rgb(250, 239, 239);
+    text-decoration:none;
+}
+img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 40%;
+}
+.cajaBorde{
+  /*  border: 4px solid black*/
+}
+main{
+    padding-top: 1%;
+}
+.englobatodo{
+    height: 70vh;
+}
+.instruccion{
+    height: 40vh;
+}
+.pasosLibero{
+    position: relative;
+   /* background-color: yellow;*/
+    width:43%;
+    height: 80%;
+    left: 8%;
+    top: 10%;
+    
+}
+.listainstrucciones{
+   
+    padding-left: 8%;
+}
+
+.fotolibero{
+    position: absolute;
+    /*background-color: yellowgreen;*/
+    width: 35%;
+    height: 35%;
+    left: 55%;
+    bottom: -30%;
+    border-radius: 20%;
+}
+.libero{
+    border-radius: 20%;
+}
